@@ -5,7 +5,7 @@ Some python programs to extract data from .gbk files
 
 # Description
 
-Promoter Aligner:
+### <ins> Promoter Aligner:</ins>
 Given the gene name (must be an exact match to the /gene=[Name]) will produce an alignment-ready text file containing the DNA code from -100 to the end of the gene, as it’s labelled on the .gbk file.
 
 Searches all .gbk files in the program's directory
@@ -15,13 +15,13 @@ output: .txt file with >filename-productOfGene (DNA sequence of gene from positi
 
 ex: result.txt with gene searched groL 
 
->mygbkfile.gbk-60 kDa chaperonin
+\>mygbkfile.gbk-60 kDa chaperonin
 gttgctgctccataacatcaaacatcgacccacggcgtaacgcgcttgctgcttggatgcccgaggcatagactgtacaaaaaaacagtcataacaagccATGaaaaccgccactgcgccgttaccaccgctgcgttcggtcaaggttctggaccagttgcgtgagcgcatacgctacttgcattacagcttaccaaccgaacaggcttatgtccactgggttcgtgccttcatccgtttccacggtgtgcgtcacccggcaaccttgggcagcagcgaagtcgaggcatttctgtcctggctggcgaacgagcgcaaggtttcggtctccacgcatcgtcaggcattggcggccttgctgttcttctacggcaaggtgctgtgcacggatctgccctggcagggcatcaacgaagaccagaacctgggcatcgccatcacccgccgtgcgctggaagccccgctgcgcgccatcgtggccaacgccggtgaagaaccgagcgtgatcgtggccaacgtcaaggccggcgaaggcagctacggctacaacgccgccaccggcgagttcggcgacatgatcgccatgggcatcctggacccgaccaaggtgacccgctcggccctgcagcacgccgcttccgtcgccggccttgcgatcacgaccgaagtggtcgtggccgaagtgccgaagaaggaagagccggccatgccgggtgctggcggtatgggcggtatgggcggcatgggcggcatggatttctga
 
 etc...
 
 
-Genewise Aligner:
+### <ins>Genewise Aligner:</ins>
 Given the gene name (must be an exact match to the /gene=[Name]) will produce the names of the products of the x genes up and downstream of your query. 
 Useful for identifying gene insertions or deletions, or finding transposable elements.
 
@@ -35,7 +35,8 @@ output: .csv file with searched gene at position 0, and all found genes/products
 
 # Instructions of use
 
->Set program in same directory with .gbk files to analyse
->run program
+-Set program in same directory with .gbk files to analyse
+
+-Run program
 
 
